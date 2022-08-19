@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "userId": "ioni19",
+    "profileImg": "https://url.kr/x18wb7",
+    "photoUrl": "https://url.kr/vjio5c",
+    "content": "오늘도 불코딩 🔥🔥",
+    "numOfComment": 3
+  },
+  {
+    "id": 2,
+    "userId": "ioni19",
+    "profileImg": "./src_assets/images/cat.png",
+    "photoUrl": "",
+    "content": "고양이 쏘 큐트",
+    "numOfComment": 2
+  },
+  {
+    "id": 3,
+    "userId": "ioni19",
+    "profileImg": "https://url.kr/x18wb7",
+    "photoUrl": "public/images/coding.png",
+    "content": "오목 또 이김!",
+    "numOfComment": 5
+  }
+]
