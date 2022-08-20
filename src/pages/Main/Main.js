@@ -6,15 +6,19 @@ import "../Main/common.scss";
 
 const Main = () => {
   const [feedArr, setFeedArr] = useState([]);
-  useEffect(() => {fetch("http://localhost:3001/data/feedData.json")
-    .then((res) => res.json())
-    .then((data) => {
-      setFeedArr(data);
-    })}, []);
-  console.log(feedArr)
+  useEffect(() => {
+    fetch("http://localhost:3001//data/feedData.json")
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data)
+        setFeedArr(data);
+      });
+  }, []);
+  console.log(feedArr);
   return (
     <>
       <Nav />
+      <div className="space"></div>
       {feedArr.map((feed) => {
         return <Feed key={feed.id} feed={feed} />;
       })}

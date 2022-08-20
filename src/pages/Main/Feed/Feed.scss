@@ -7,8 +7,8 @@ $border-style: 1px solid lightgray;
 
 /*** feed css 코드 ***/
 .feed-container {
-  margin-top: 30px;
-  padding: 0 25vw;
+  padding: 30px 25vw 0;
+  background-color: #efefef;
 
   .feed-whole-wrapper {
     width: 470px;
@@ -40,8 +40,9 @@ $border-style: 1px solid lightgray;
           font-weight: 600;
         }
       }
-      .menu-box {
-        width: 15px;
+      .menu-icon {
+        margin-right: 4px;
+        width: 14px;
       }
     }
     /*feed 메인 사진*/

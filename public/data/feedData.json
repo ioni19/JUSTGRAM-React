@@ -2,16 +2,16 @@
   {
     "id": 1,
     "userId": "ioni19",
-    "profileImg": "https://url.kr/x18wb7",
-    "photoUrl": "https://url.kr/vjio5c",
+    "profileImg": "img/meaong.png",
+    "photoUrl": "img/coding.jpeg",
     "content": "오늘도 불코딩 🔥🔥",
     "numOfComment": 3
   },
   {
     "id": 2,
-    "userId": "ioni19",
-    "profileImg": "./src_assets/images/cat.png",
-    "photoUrl": "",
+    "userId": "cat_lover",
+    "profileImg": "img/cat.jpeg",
+    "photoUrl": "img/cat.png",
     "content": "고양이 쏘 큐트",
     "numOfComment": 2
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "userId": "ioni19",
     "profileImg": "https://url.kr/x18wb7",
-    "photoUrl": "public/images/coding.png",
+    "photoUrl": "img/5mok.png",
     "content": "오목 또 이김!",
     "numOfComment": 5
   }
